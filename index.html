@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Saquarema - Projeto de Mapeamento Inteligente</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        
+        h3 {
+            color: #2980b9;
+        }
+        
+        .highlight {
+            background-color: #e8f4fd;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+        }
+        
+        .feature-list {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        
+        ul {
+            margin: 10px 0;
+        }
+        
+        li {
+            margin: 8px 0;
+        }
+        
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 15px 0;
+        }
+        
+        .tech-item {
+            background-color: #3498db;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 14px;
+        }
+        
+        .status {
+            background-color: #27ae60;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 10px 0;
+        }
+        
+        .contact-info {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🗺️ Mapa Saquarema</h1>
+        <p><strong>Projeto de Mapeamento Inteligente para a Cidade de Saquarema/RJ</strong></p>
+        
+        <div class="highlight">
+            <strong>Objetivo:</strong> Desenvolver uma plataforma digital que forneça informações em tempo real sobre trânsito, rotas alternativas e condições urbanas para melhorar a mobilidade dos cidadãos de Saquarema.
+        </div>
+
+        <h2>📋 Sobre o Projeto</h2>
+        <p>O Mapa Saquarema é uma iniciativa inovadora que visa revolucionar a forma como os moradores e visitantes navegam pela cidade. Utilizando tecnologias modernas e dados em tempo real, o projeto oferece uma solução completa para os desafios de mobilidade urbana.</p>
+
+        <h2>🎯 Problemas que Resolvemos</h2>
+        <ul>
+            <li><strong>Congestionamentos:</strong> Identificação de rotas alternativas em tempo real</li>
+            <li><strong>Falta de informação:</strong> Dados atualizados sobre condições de trânsito</li>
+            <li><strong>Segurança viária:</strong> Alertas sobre acidentes e perigos na via</li>
+            <li><strong>Planejamento de viagem:</strong> Estimativas precisas de tempo de deslocamento</li>
+            <li><strong>Impacto climático:</strong> Informações sobre como o clima afeta o trânsito</li>
+        </ul>
+
+        <h2>⚡ Funcionalidades Principais</h2>
+        <div class="feature-list">
+            <h3>🚦 Monitoramento de Trânsito</h3>
+            <ul>
+                <li>Análise de fluxo de veículos em tempo real</li>
+                <li>Identificação automática de congestionamentos</li>
+                <li>Histórico de padrões de tráfego por horário e dia da semana</li>
+                <li>Previsão de condições futuras baseada em dados históricos</li>
+            </ul>
+
+            <h3>🛣️ Sistema de Rotas Inteligentes</h3>
+            <ul>
+                <li>Cálculo de rotas otimizadas considerando tráfego atual</li>
+                <li>Sugestões de rotas alternativas em caso de bloqueios</li>
+                <li>Integração com diferentes modais de transporte</li>
+                <li>Rotas personalizadas para diferentes tipos de veículos</li>
+            </ul>
+
+            <h3>📱 Interface do Usuário</h3>
+            <ul>
+                <li>Aplicativo móvel para Android e iOS</li>
+                <li>Interface web responsiva</li>
+                <li>Comandos de voz para navegação hands-free</li>
+                <li>Modo noturno e acessibilidade completa</li>
+            </ul>
+
+            <h3>🌐 Integração com Dados Públicos</h3>
+            <ul>
+                <li>Parceria oficial com a Prefeitura de Saquarema</li>
+                <li>Acesso a dados de semáforos e sensores urbanos</li>
+                <li>Informações sobre obras e eventos públicos</li>
+                <li>Dados meteorológicos integrados</li>
+            </ul>
+        </div>
+
+        <h2>🛠️ Tecnologias Utilizadas</h2>
+        <div class="tech-stack">
+            <span class="tech-item">React Native</span>
+            <span class="tech-item">Node.js</span>
+            <span class="tech-item">PostgreSQL</span>
+            <span class="tech-item">Google Maps API</span>
+            <span class="tech-item">Firebase</span>
+            <span class="tech-item">Machine Learning</span>
+            <span class="tech-item">WebSocket</span>
+            <span class="tech-item">Docker</span>
+            <span class="tech-item">AWS</span>
+        </div>
+
+        <h2>📊 Arquitetura do Sistema</h2>
+        <h3>Backend</h3>
+        <ul>
+            <li><strong>API REST:</strong> Gerenciamento de dados e autenticação</li>
+            <li><strong>Processamento em tempo real:</strong> Análise de dados de tráfego</li>
+            <li><strong>Machine Learning:</strong> Predição de padrões e otimização de rotas</li>
+            <li><strong>Banco de dados:</strong> Armazenamento de dados históricos e em tempo real</li>
+        </ul>
+
+        <h3>Frontend</h3>
+        <ul>
+            <li><strong>App Mobile:</strong> Interface principal para usuários</li>
+            <li><strong>Dashboard Web:</strong> Painel administrativo para gestores</li>
+            <li><strong>API de Mapas:</strong> Visualização interativa das informações</li>
+        </ul>
+
+        <h2>🤝 Parcerias e Colaborações</h2>
+        <div class="highlight">
+            <h3>Prefeitura Municipal de Saquarema</h3>
+            <p>Parceria oficial que garante acesso a:</p>
+            <ul>
+                <li>Dados históricos de trânsito dos últimos 5 anos</li>
+                <li>Informações sobre obras e eventos municipais</li>
+                <li>Integração com sistemas de semáforos inteligentes</li>
+                <li>Suporte técnico e validação de dados</li>
+            </ul>
+        </div>
+
+        <h2>📈 Impacto Esperado</h2>
+        <ul>
+            <li><strong>Redução de 25%</strong> no tempo médio de deslocamento</li>
+            <li><strong>Diminuição de 30%</strong> nas emissões de CO2 por otimização de rotas</li>
+            <li><strong>Melhoria de 40%</strong> na satisfação dos usuários com o trânsito</li>
+            <li><strong>Aumento de 50%</strong> na eficiência do transporte público</li>
+        </ul>
+
+        <h2>🚀 Roadmap de Desenvolvimento</h2>
+        <h3>Fase 1 - MVP (3 meses)</h3>
+        <ul>
+            <li>Desenvolvimento do aplicativo básico</li>
+            <li>Integração com Google Maps</li>
+            <li>Sistema básico de rotas</li>
+        </ul>
+
+        <h3>Fase 2 - Dados em Tempo Real (6 meses)</h3>
+        <ul>
+            <li>Integração com sensores de trânsito</li>
+            <li>Sistema de alertas push</li>
+            <li>Dashboard administrativo</li>
+        </ul>
+
+        <h3>Fase 3 - IA e Machine Learning (9 meses)</h3>
+        <ul>
+            <li>Algoritmos de predição de tráfego</li>
+            <li>Otimização automática de rotas</li>
+            <li>Análise preditiva de padrões</li>
+        </ul>
+
+        <div class="status">
+            📍 Status Atual: Fase 1 - Desenvolvimento do MVP (60% concluído)
+        </div>
+
+        <h2>💡 Diferenciais Competitivos</h2>
+        <ul>
+            <li><strong>Foco local:</strong> Especialização específica em Saquarema</li>
+            <li><strong>Dados oficiais:</strong> Parceria direta com órgãos municipais</li>
+            <li><strong>Comunidade ativa:</strong> Feedback e contribuições dos usuários</li>
+            <li><strong>Tecnologia avançada:</strong> IA aplicada à mobilidade urbana</li>
+            <li><strong>Sustentabilidade:</strong> Redução do impacto ambiental</li>
+        </ul>
+
+        <h2>📞 Equipe e Contato</h2>
+        <div class="contact-info">
+            <h3>Equipe Principal</h3>
+            <ul>
+                <li><strong>Desenvolvimento:</strong> 3 desenvolvedores full-stack</li>
+                <li><strong>Design UX/UI:</strong> 1 designer especializado</li>
+                <li><strong>Data Science:</strong> 1 cientista de dados</li>
+                <li><strong>Gestão de Projeto:</strong> 1 gerente de projetos</li>
+            </ul>
+            
+            <h3>Informações de Contato</h3>
+            <p><strong>Email:</strong> contato@mapasaquarema.com.br</p>
+            <p><strong>Telefone:</strong> (22) 9999-9999</p>
+            <p><strong>Endereço:</strong> Saquarema, RJ - Brasil</p>
+        </div>
+
+        <div class="highlight">
+            <h3>🎯 Próximos Passos</h3>
+            <p>Estamos buscando parcerias estratégicas e investimentos para acelerar o desenvolvimento e implementação do projeto. Se você tem interesse em colaborar ou investir na mobilidade urbana inteligente, entre em contato conosco!</p>
+        </div>
+    </div>
+</body>
+</html>
